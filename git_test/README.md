@@ -1,0 +1,1 @@
+This is Stefan O'Neil's first git project!
