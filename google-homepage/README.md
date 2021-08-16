@@ -1,0 +1,1 @@
+This is my first assignment on The Odin Project. I am to recreate the Google homepage but it does not have to be functional. 
