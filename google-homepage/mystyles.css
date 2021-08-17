@@ -1,0 +1,59 @@
+/**************** Element Selectors ********************/
+
+li {
+  display: inline;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+/**************** Class Selectors ********************/
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.font13 {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.font14 {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.inline {
+  display: inline;
+  margin: auto;
+}
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+/**************** ID Selectors ********************/
+
+#google-logo {
+  padding-top: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 92px;
+}
