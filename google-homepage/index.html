@@ -9,18 +9,8 @@
   </head>
   <body>
     <ul>
-      <li
-        class="float-left font14"
-        style="margin-left: 15px; margin-right: 5px"
-      >
-        Googleについて
-      </li>
-      <li
-        class="float-left font14"
-        style="margin-left: 5px; margin-right: 15px"
-      >
-        ストア
-      </li>
+      <li class="float-left font14 margin1">Googleについて</li>
+      <li class="float-left font14 margin2">ストア</li>
 
       <li class="float-right">ログイン</li>
       <li>
@@ -31,7 +21,7 @@
           height="24px"
         />
       </li>
-      <li class="float-right">画像</li>
+      <li class="float-right font13">画像</li>
       <li class="float-right font13">Gmail</li>
     </ul>
     <img
@@ -39,18 +29,26 @@
       src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
       alt="google-logo"
     />
-    <form action="#">
+    <form class="center" action="#">
       <input class="centered" type="text" />
-      <div class="center">
-        <input class="inline" type="submit" value="Google 検索" />
-        <input
-          class="inline"
-          type="submit"
-          value="I'm Feeling Lucky"
-        />
-
+      <div>
+        <input class="button" type="submit" value="Google 検索" />
+        <input class="button" type="submit" value="I'm Feeling Lucky" />
       </div>
     </form>
-    <p>Google 検索は次の言語でもご利用いただけます: <a href="#">English</a></p>
+    <p class="text-center">
+      Google 検索は次の言語でもご利用いただけます: <a href="#">English</a>
+    </p>
+    <div class="greybackground">
+      <p id="country">日本</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.google.com/intl/ja_jp/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >広告</a
+          >
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
