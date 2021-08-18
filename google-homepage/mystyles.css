@@ -1,5 +1,7 @@
 /**************** Element Selectors ********************/
-
+body {
+  font-family: Arial, sans-serif;
+}
 li {
   display: inline;
 }
@@ -38,17 +40,20 @@ p {
   display: inline;
   margin: auto;
 }
+.inline-box {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
 
 .center {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
   padding: 10px;
-}
-
-.button {
-  display: table;
-  margin: 0 auto;
 }
 
 .text-center {
@@ -70,7 +75,9 @@ p {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.54);
 }
-
+.padding15 {
+  padding: 15px;
+}
 /**************** ID Selectors ********************/
 
 #google-logo {
@@ -78,7 +85,10 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+  object-fit: contain;
   height: 92px;
+  aspect-ratio: auto 272 / 92;
 }
 #country {
   border-bottom-color: rgb(218, 220, 224);
