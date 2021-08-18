@@ -78,13 +78,18 @@ p {
 .padding15 {
   padding: 15px;
 }
+
+.bottomnavbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 /**************** ID Selectors ********************/
 
 #google-logo {
   padding-top: 5em;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 50%;
   object-fit: contain;
   height: 92px;
