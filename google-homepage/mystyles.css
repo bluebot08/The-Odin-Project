@@ -36,12 +36,9 @@ p {
   font-size: 14px;
 }
 
-.inline {
-  display: inline;
-  margin: auto;
-}
-.inline-box {
+.submitbtn {
   display: inline-block;
+  margin-top: 20px;
 }
 .flex {
   display: flex;
@@ -75,14 +72,15 @@ p {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.54);
 }
-.padding15 {
-  padding: 15px;
-}
 
 .bottomnavbar {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+.rounded {
+  border-radius: 30px;
+  border-style: outset;
 }
 /**************** ID Selectors ********************/
 
