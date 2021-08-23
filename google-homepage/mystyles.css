@@ -1,6 +1,7 @@
 /**************** Element Selectors ********************/
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 li {
@@ -16,7 +17,7 @@ a {
 }
 
 /**************** Class Selectors ********************/
-.loginbtn{
+.loginbtn {
   background: #1a73e8;
   border-radius: 5px;
   padding: 9px 23px;
@@ -93,12 +94,16 @@ a {
   border-radius: 30px;
   border-style: outset;
 }
-
+.searchbar{
+  
+}
 /**************** ID Selectors ********************/
 
 #google-logo {
   padding-top: 5em;
   display: block;
+  position: relative;
+  left: 30px;
   margin: 0 auto;
   width: 50%;
   object-fit: contain;
