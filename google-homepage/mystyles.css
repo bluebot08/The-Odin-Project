@@ -90,12 +90,12 @@ a {
   bottom: 0;
   width: 100%;
 }
-.rounded {
-  border-radius: 30px;
-  border-style: outset;
-}
-.searchbar{
+.searchbar {
   height: 44px;
+  width: 542px;
+  border-radius: 30px;
+  border-style: solid;
+  color: #dfe1e5;
 }
 /**************** ID Selectors ********************/
 
