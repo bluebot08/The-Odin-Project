@@ -96,6 +96,9 @@ a {
   border-radius: 30px;
   border-style: solid;
   color: #dfe1e5;
+  /*  Not working yet.
+  background-image: url(images/outline_search_white_24dp.png);
+  */
 }
 /**************** ID Selectors ********************/
 
