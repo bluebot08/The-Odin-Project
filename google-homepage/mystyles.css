@@ -98,6 +98,8 @@ a {
   color: #dfe1e5;
   background-image: url(images/twotone_search_black_24dp.png);
   background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
 }
 /**************** ID Selectors ********************/
 
