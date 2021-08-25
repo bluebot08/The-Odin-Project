@@ -96,6 +96,8 @@ a {
   border-radius: 30px;
   border-style: solid;
   color: #dfe1e5;
+}
+.searchicon {
   background-image: url(images/twotone_search_black_24dp.png);
   background-repeat: no-repeat;
   background-position: left center;
