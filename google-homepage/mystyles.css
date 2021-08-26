@@ -14,6 +14,7 @@ p {
 
 a {
   text-decoration: none;
+  color: black; 
 }
 
 /**************** Class Selectors ********************/
