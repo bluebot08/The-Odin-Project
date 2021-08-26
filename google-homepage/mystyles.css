@@ -105,12 +105,14 @@ a {
   background-position: left center;
   background-size: 30px;
 }
-
+/*
 .logoandsearch{
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;}
+ */
+  
 /**************** ID Selectors ********************/
 
 #google-logo {
