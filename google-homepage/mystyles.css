@@ -102,8 +102,8 @@ a {
 .searchicon {
   background-image: url(images/twotone_search_black_24dp.png);
   background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 30px;
+  background-position: 1% 50%;
+  background-size: 20px;
 }
 /*
 .logoandsearch{
@@ -112,7 +112,7 @@ a {
   top: 50%;
   left: 50%;}
  */
-  
+
 /**************** ID Selectors ********************/
 
 #google-logo {
