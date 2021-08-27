@@ -15,9 +15,8 @@ p {
 
 a {
   text-decoration: none;
-  color: black; 
+  color: black;
 }
-
 /**************** Class Selectors ********************/
 .loginbtn {
   background: #1a73e8;
@@ -91,6 +90,7 @@ a {
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding-inline-start: 0px;
 }
 .searchbar {
   height: 44px;
