@@ -15,13 +15,14 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
 }
 /**************** Class Selectors ********************/
-.blacktext{
+.blacktext {
   color: black;
 }
-
+.greytext {
+  color: rgba(0, 0, 0, 0.54);
+}
 .loginbtn {
   background: #1a73e8;
   border-radius: 5px;
