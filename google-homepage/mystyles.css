@@ -109,13 +109,15 @@ a {
   background-position: 1% 50%;
   background-size: 20px;
 }
-/*
-.logoandsearchcontainer{
+.logoandsearchcontainer {
+  position: relative;
+}
+.logoandsearch {
   margin: 0;
   position: absolute;
   top: 50%;
-  left: 50%;}
- */
+  left: 50%;
+}
 .paddingleft0px {
   padding-left: 0px;
   color: rgba(0, 0, 0, 0.54);
