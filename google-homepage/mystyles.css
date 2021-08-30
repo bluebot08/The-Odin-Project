@@ -98,7 +98,7 @@ a {
 }
 .searchbar {
   height: 44px;
-  width: 542px;
+  width: 75%;
   border-radius: 30px;
   border-style: solid;
   color: #dfe1e5;
@@ -129,8 +129,6 @@ a {
 #google-logo {
   padding-top: 5em;
   display: block;
-  position: relative;
-  left: 30px;
   margin: 0 auto;
   width: 50%;
   object-fit: contain;
