@@ -22,7 +22,9 @@ function capatalize(string) {
 capatalize("stefan");
 
 function lastLetter(string) {
+  // This sets a variable to the length of string which is 4.
   let stringLength = string.length;
+  //    We take string and find the characater at string length (4) - 1 which is 3. a = 0, b = 1, c = 2, d = 3. Therefore is at spot 3 and the lhe last letter and returned.
   console.log(string.charAt(stringLength - 1));
 }
 lastLetter("abcd");
