@@ -20,3 +20,9 @@ function capatalize(string) {
   console.log(capitalString);
 }
 capatalize("stefan");
+
+function lastLetter(string) {
+  let stringLength = string.length;
+  console.log(string.charAt(stringLength - 1));
+}
+lastLetter("abcd");
