@@ -13,3 +13,10 @@ function multiply(x, y) {
   console.log(x * y);
 }
 multiply(3, 4);
+
+// Had to change stefan into a string to make this work.
+function capatalize(string) {
+  let capitalString = string.charAt(0).toUpperCase() + string.slice(1);
+  console.log(capitalString);
+}
+capatalize("stefan");
