@@ -8,7 +8,8 @@ function add7(number) {
 }
 add7(3);
 
-function multiply(number) {
-  console.log(number * number);
+// Needed to change (number) to (x,y)
+function multiply(x, y) {
+  console.log(x * y);
 }
 multiply(3, 4);
